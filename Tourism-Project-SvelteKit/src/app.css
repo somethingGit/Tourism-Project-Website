@@ -77,4 +77,28 @@
   .fade-in {
     animation: fadeIn 1000ms ease-in-out;
   }
-  
+
+  @keyframes rotation180 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(180deg);
+    }
+  }
+  .parent:hover .child{
+    animation: rotation180 500ms forwards;
+  }
+
+  .crop {
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+    position:relative;
+  }
+
+  .crop img {
+    position:relative;
+    top:-300px;
+    bottom:1000px;
+  }
