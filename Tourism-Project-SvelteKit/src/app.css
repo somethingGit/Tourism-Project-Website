@@ -102,3 +102,9 @@
     top:-300px;
     bottom:1000px;
   }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
