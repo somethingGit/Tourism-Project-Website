@@ -4,7 +4,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
-		"build": "vite build",
+		"build": "vite build --base /${{ github.event.repository.name }}/Tourism-Project-SvelteKit/ --outDir dist",
 		"preview": "vite preview"
 	},
 	"devDependencies": {
