@@ -1,5 +1,6 @@
 <script>
   import "../../src/app.css";
+  let base = "/";
 </script>
   
 <style>
