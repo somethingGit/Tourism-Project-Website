@@ -1,5 +1,6 @@
 <script>
   import "../../src/app.css";
+  import waterfalls from "/IMG_2397.jpeg";
   let base = "/";
 </script>
   
@@ -51,7 +52,7 @@
   
 <main>
   <div class="crop">
-    <img src="/IMG_2397.jpeg" alt="" class="h-1/3 w-full">
+    <img src={waterfalls} alt="" class="h-1/3 w-full">
   </div>
 </main>
 

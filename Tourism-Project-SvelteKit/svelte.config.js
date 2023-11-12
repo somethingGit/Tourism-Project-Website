@@ -11,7 +11,11 @@ const config = {
 			base: process.env.NODE_ENV === 'production' ? '/Tourism-Project-SvelteKit/src' : '',
 		},
 		adapter: adapter({
-			strict: false
+			pages: 'build',
+            assets: 'build',
+            fallback: null,
+            precompress: false,
+            strict: false
 		})
 	},
 	preprocess: vitePreprocess()
